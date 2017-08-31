@@ -1,0 +1,21 @@
+footer{
+    overflow: hidden;
+    padding:20px;
+    background-color:$primary-color;
+      color:#fff!important;
+    .social-media{
+        margin-top:25px;
+        height:100%;
+        color:#fff;
+        margin-bottom:0;
+        li{
+            display: inline;
+            color:#fff!important;
+            padding:10px;
+            a{
+                color:#fff!important;
+                
+            }
+        }
+    }
+}

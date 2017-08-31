@@ -1,0 +1,912 @@
+.logo {
+    font-family: "Indie Flower",cursive;
+    font-size: 2rem!important;
+    color:$primary-color!important;
+}
+
+
+.header-video{
+     width:100%;
+    height: auto!important;
+        video{
+    width: 100%!important;
+   
+        }
+        .header-intro{
+            position: absolute;
+            top:40%;
+            width: 100%;
+        }
+        .heading1{
+            text-align: center;
+            color:$primary-color;
+            font-size: 4rem;
+            font-weight:700;
+        }
+    }
+
+.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link{
+    color:$secondary-color;
+    font-weight:700;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler  {
+    color:$secondary-color;
+    font-weight:700;
+}
+.navbar-inverse .navbar-nav .nav-link {
+    color:$secondary-color;
+    font-weight:700;
+}
+.bg-inverse{
+    background-color:$primary-color!important;
+    color:#fff!important;}
+.section-showcase{
+    background-color: $primary-color;
+   margin-top: -6px;
+    padding: 90px 0;
+    
+    .block{
+        background-color: #fff;
+        border:0.2px solid #474747;
+        width:100%;
+        min-height: 300px;
+        
+    }
+  
+    .block-content{
+       padding:40px;
+    }
+    
+  i{
+       text-align: center;
+        width:100%;
+      padding-bottom:20px;
+      &:hover{
+          color:#FFF;
+            background: none; 
+      }
+    }
+    h3{
+        text-align: center;
+         padding-bottom:20px;
+        &:hover{
+             color:#FFF;
+            background: none;
+        }
+    }
+    p{
+        text-align: center;
+          padding-bottom:20px;
+        &:hover{
+           color:#FFF;
+            background: none;  
+        }
+    }
+    .centered
+{
+    text-align:center;
+    &:hover{
+        background: none;
+    }
+}
+    .block-button{
+        &:hover{
+            background:#0275d8;
+          
+        }
+    }
+}
+.section-showcase{
+    text-align: center;
+   
+    h2{
+        color: #fff;
+    }
+}
+.section-showcase>p{
+    color: #fff;
+    
+}
+  .block1{
+       & :hover{
+        background: url("http://www.strictlycoffee.co.za/wp-content/uploads/2015/07/Dollarphotoclub_59335540.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        color:#fff;
+    }
+    }
+.block2{
+       & :hover{
+        background: url("https://s-media-cache-ak0.pinimg.com/originals/2f/9a/f1/2f9af1d729bb11cdbf85d193ad01f40b.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        color:#fff;
+    }
+}
+
+
+
+.block3{
+       & :hover{
+        background: url("http://eskipaper.com/images/coffee-grains-wallpaper-2.jpg") no-repeat center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+        color:#fff;
+    }
+}
+
+.section-products{
+    padding: 90px 0;
+    h2{
+        text-align: center;
+        color: $primary-color;
+        padding-bottom:30px;
+    }
+    p{
+       
+        text-align: center;
+        color: $primary-color; 
+         padding-bottom:30px;
+    }
+    
+   .row > .column {
+  padding: 0 8px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.column {
+   width: 100%;
+    height:255px;
+    margin:25px 0;
+    border:2px solid #f2f2f2;
+     box-shadow: 8px 8px 3px $primary-color;;
+    border-radius: 10px;
+    overflow: hidden;
+    cursor: pointer;
+position: relative;
+  -webkit-transition: margin 0.5s ease-out;
+    -moz-transition: margin 0.5s ease-out;
+    -o-transition: margin 0.5s ease-out;
+    &:hover{
+        cursor:pointer;
+    margin-top: 5px;
+    }
+    img{
+        width:100%;
+        height:80%;
+        border-radius:5px;
+        border-top-left-radius:1px;
+        border-top-right-radius:1px;
+        border-bottom-right-radius:0;
+        border-bottom-left-radius:0;
+        
+    }
+    .column-caption{
+        position: absolute;
+        top:83%;
+        height:10%;
+    width: 100%;
+        p{
+            padding:0px;
+            margin: 0px;
+            text-align: center;
+            color: $primary-color;
+        }
+    }
+}
+    
+
+/* The Modal (background) */
+.modal {
+  margin: 0 auto;
+  position: fixed;
+  z-index: 1;
+  padding-top: 100px;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: transparent;
+      border-radius:5px;
+}
+
+/* Modal Content */
+.modal-content {
+  position: relative;
+ background-color:rgba(0, 0, 0, 0.5);
+  margin: auto;
+  padding: 0;
+  width: 50%;
+    height: 50%;
+  max-width: 1200px;
+  
+   
+}
+
+/* The Close Button */
+.close {
+  color: white;
+  position: absolute;
+  top:0x;
+  right:15px;
+  font-size: 35px;
+  font-weight: bold;
+    z-index:100;
+}
+
+.close:hover,
+.close:focus {
+  color: #999;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.mySlides {
+  display: none;
+}
+
+/* Next & previous buttons */
+.prev,
+.next {
+  cursor: pointer;
+  position: absolute;
+  top: 80%;
+  width: auto;
+  padding: 16px;
+  margin-top: -50px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+  -webkit-user-select: none;
+    background-color: black;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover,
+.next:hover {
+  background-color: rgba(0, 0, 0, 0.8);
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+.caption-container {
+  text-align: center;
+  background-color: black;
+  padding: 2px 16px;
+  color: white;
+}
+
+img.demo {
+  opacity: 0.6;
+}
+
+.active,
+.demo:hover {
+  opacity: 1;
+}
+
+img.hover-shadow {
+  transition: 0.3s
+}
+
+.hover-shadow:hover {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19)
+}
+    }
+
+.section-testimonials{
+    background-color: $primary-color;
+    padding:90px 0px;
+    h2{
+         padding:20px;
+        text-align: center;
+        color:#fff;
+    }
+    
+    .lead{
+        padding:20px;
+       text-align: center;
+        color:#fff; 
+    }
+}
+
+.box-testimonials{
+    line-height:2rem;
+    text-align: justify;
+    .box-bloq{
+         border-radius:3px;
+   border:1px solid black;
+         background-color:#fff;
+         padding: 20px;
+         
+       position: relative;
+       
+        }  
+    }
+
+.box-bloq:after, .box-bloq:before {
+	top: 100%;
+	border: solid transparent;
+	content: " ";
+	height: 0;
+	width: 0;
+	position: absolute;
+	pointer-events: none;
+}
+
+
+.box-bloq:before {
+	border-color: rgba(0, 0, 0, 0);
+	border-top-color: #fff;
+	border-width: 15px;
+	
+}
+    .bloq-paragraph{
+        font-size:20px;
+        font-weight: 300;
+        color:$primary-color;
+
+}
+.testimonials-author{
+    position: relative;
+    img{
+        border-radius:100%;
+        width:80px;
+        height:80px;
+        margin-top:25px 
+    }
+    p{
+        position: absolute;
+        top:45%;
+        color:#fff;
+        line-height: normal;
+        font-size:16px;
+        text-align: center;
+    }
+}
+.fan-fucts{
+     min-height: 500px; 
+    text-align: center;
+    background: url("http://msgossip.com/wp-content/uploads/2014/11/a1.jpg");
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding:140px 0;
+    color: #fff;
+}
+
+.contact{
+padding:120px 0 0 0;
+    h2{
+        text-align: center;
+        margin-bottom:20px;
+        color: $primary-color;
+    } 
+    p{
+       margin-top:30px; 
+        text-align: center;
+        color: $primary-color;
+    }
+    .contact-list{
+padding:0;
+        li{
+            list-style: none;
+            margin-bottom:20px;
+            color: $primary-color;
+            font-size:18px;
+            width:347px;
+            i{
+               padding-right:15px;
+            }
+        }
+        
+    }
+    form{
+
+    .form-control{
+        padding: 1rem 0.75rem;
+    }
+    }
+    .plus-pad{
+        padding:20px;
+        margin-top:25px;
+        h3{
+            margin-bottom:35px;
+            color: $primary-color;
+        }
+        
+        
+    }
+    
+    .location{
+       width:100%;
+        iframe{
+            width:100%;
+            height:100%;
+        }
+    }
+}
+
+/*Animations*/
+.js-wp-1{
+    opacity: 0;
+}
+.js-wp-1.animated {
+    opacity: 1;
+}
+
+.js-wp-2{
+    opacity: 0;
+}
+
+.js-wp-2.animated{
+    opacity:1;
+}
+.js-wp-2{
+    opacity: 0;
+}
+.js-wp-3.animated{
+    opacity:1;
+}
+.js-wp-3{
+    opacity: 0;
+}
+.js-wp-4{
+    opacity: 0;
+}
+.js-wp-4.animated {
+    opacity: 1;
+}
+
+.js-wp-5{
+    opacity: 0;
+}
+
+.js-wp-5.animated{
+    opacity:1;
+}
+.js-wp-6{
+    opacity: 0;
+}
+.js-wp-6.animated{
+    opacity:1;
+}
+.js-wp-7{
+    opacity: 0;
+}
+.js-wp-7.animated{
+    opacity:1;
+}
+.js-wp-8{
+    opacity: 0;
+}
+
+.js-wp-8.animated{
+    opacity:1;
+}
+.js-wp-9{
+    opacity: 0;
+}
+.js-wp-9.animated{
+    opacity:1;
+}
+.js-wp-10{
+    opacity: 0;
+}
+.js-wp-10.animated{
+    opacity:1;
+}
+.js-wp-11{
+    opacity: 0;
+}
+.js-wp-11.animated{
+    opacity:1;
+}
+.js-wp-12{
+    opacity: 0;
+}
+.js-wp-12.animated{
+    opacity:1;
+}
+.js-wp-13{
+    opacity: 0;
+}
+.js-wp-13.animated{
+    opacity:1;
+}
+.js-wp-14{
+    opacity: 0;
+}
+.js-wp-14.animated{
+    opacity:1;
+}
+.js-wp-15{
+    opacity: 0;
+}
+.js-wp-15.animated{
+    opacity:1;
+}
+.js-wp-16{
+    opacity: 0;
+}
+.js-wp-16.animated{
+    opacity:1;
+}
+.js-wp-17{
+    opacity: 0;
+}
+.js-wp-17.animated{
+    opacity:1;
+}
+.js-wp-18{
+    opacity: 0;
+}
+.js-wp-18.animated{
+    opacity:1;
+}
+
+/*------------------------------------------*/
+//
+    @media (min-width: 320px)and (max-width: 429px){
+        nav{
+            .container{
+               width:100%;
+            }
+        }
+        body{
+           overflow-x: hidden;
+        }
+        .logo{
+ font-family:$heading-font; 
+            font-size:1rem!important;
+
+}
+        header{
+
+            padding-bottom: 30px;
+           height:310px;
+            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+            background-size: cover;
+        }
+   
+        video{
+         display: none;
+        
+    }
+.header-intro {
+    color:red;
+    width:100%;
+    position: absolute;
+    top: 18%!important;
+    .heading1{
+      font-size: 3.0rem!important;
+    font-weight: 700;  
+        
+        
+    }
+        }
+        .box-testimonials{
+            margin-top:80px;
+        }
+.box-bloq:before {
+   
+    .col-sm-9 {
+            width: 55%!important;
+               
+        }
+}       
+}
+    // Small devices (landscape phones, 576px and up)
+    @media (min-width: 430px)and (max-width: 575px) { 
+          
+         nav{
+            .container{
+               width:100%;
+            }
+        }
+        
+    header{
+
+            padding-bottom: 30px;
+           height:310px;
+            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+            background-size: cover;
+        }
+   
+        video{
+         display: none;
+        
+    }
+.header-intro {
+    color:red;
+    width:100%;
+    position: absolute;
+    top: 25%!important;
+    z-index: 99999999999999999999999999999;
+    .heading1{
+      font-size: 3.0rem!important;
+    font-weight: 700;  
+        
+        
+    }
+        }
+        .section-showcase {
+            .col-md-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}
+            .block {   
+            max-width: 100%!important;
+            
+           }   
+        }  
+        
+        .section-products{
+           .col-sm-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+    height:300px;
+}    
+        }
+        
+        
+        .section-testimonials{
+           .col-sm-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}  
+        }
+        .section-showcase .block {
+    max-width: 80%;
+}
+     .box-bloq:before {
+   
+}       
+        .col-sm-9 {
+               
+    margin-top: -115px;
+        }
+    
+element.style {
+}
+
+.js-wp-5.animated {
+    opacity: 1;
+}
+        .section-products .column{    
+    width: 100%;
+    height: 400px;
+    margin:0px auto;
+            margin-bottom:1rem;
+}
+      .col-sm-9 {
+    margin-top: -116px;
+    margin-left: 88px!important;
+        
+    }  
+    }
+
+  // Small devices (landscape phones, 576px and up)
+    @media (min-width: 576px)and (max-width: 767px) {
+        
+            nav{
+            .container{
+               width:100%;
+            }
+        }
+        
+ header{
+
+            padding-bottom: 30px;
+           height:310px;
+            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+            background-size: cover;
+        }
+   
+        video{
+         display: none;
+        
+    }
+.header-intro {
+    color:red;
+    width:100%;
+    position: absolute;
+    top: 25%!important;
+    z-index: 99999999999999999999999999999;
+    .heading1{
+      font-size: 3.0rem!important;
+    font-weight: 700;  
+        
+        
+    }
+        }
+        .section-showcase {
+            .col-md-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}
+            .block {   
+            max-width: 100%!important;
+            
+           }   
+        }  
+        
+        .section-products{
+           .col-sm-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+    height:300px;
+}    
+        }
+        
+        
+        .section-testimonials{
+           .col-sm-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}  
+        }
+        .section-showcase .block {
+    max-width: 80%;
+}
+     .box-bloq:before {
+  
+}       
+        .col-sm-3 {
+   
+    max-width: 15%!important;
+}
+    
+element.style {
+}
+
+.js-wp-5.animated {
+    opacity: 1;
+}
+        .section-products .column{    
+    width: 100%;
+    height: 400px;
+    margin:0px auto;
+            margin-bottom:1rem;
+}
+
+        .col-sm-9 {
+    margin-top: -116px;
+    margin-left: 88px!important;
+        
+    }
+}
+    // Medium devices (tablets, 768px and up)
+    @media (min-width: 768px)and (max-width: 991px) {
+       nav{
+            .container{
+               width:100%;
+            }
+        }
+        
+       header{
+
+            padding-bottom: 30px;
+           height:310px;
+            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+            background-size: cover;
+        }
+   
+        video{
+         display: none;
+        
+    }
+.header-intro {
+    color:red;
+    width:100%;
+    position: absolute;
+    top: 10%!important;
+    z-index: 99999999999999999999999999999;
+    .heading1{
+      font-size: 3.0rem!important;
+    font-weight: 700;  
+        
+        
+    }
+        }
+        .section-showcase {
+            .col-md-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}
+            .block {   
+            max-width: 100%!important;
+            
+           }   
+        }  
+        
+        .section-testimonials{
+           .col-sm-4 {
+    -webkit-box-flex: 100%; 
+     -webkit-flex: 100%;
+    -ms-flex:100%;
+     flex: 100%; 
+     max-width: 100%;
+}  
+        }
+        .section-showcase .block {
+    max-width: 80%;
+            margin-bottom:1rem;
+}
+     .box-bloq:before {
+   
+}       
+        .col-sm-9 {
+    margin-top: -116px;
+    margin-left: 88px!important;
+        
+    }
+       
+    }
+
+    // Large devices (desktops, 992px and up)
+    @media (min-width: 992px)and (max-width: 1199px) {     
+     .box-bloq:before {
+    
+}   
+    }
+
+    // Extra large devices (large desktops, 1200px and up)
+    @media (min-width: 1200px) { 
+     
+    }
+
+
+
+
+
