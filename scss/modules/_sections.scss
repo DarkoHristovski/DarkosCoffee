@@ -1,7 +1,7 @@
 .logo {
     font-family: "Indie Flower",cursive;
     font-size: 2rem!important;
-    color:$primary-color!important;
+    color:white;
 }
 
 
@@ -449,6 +449,7 @@ padding:0;
     
     .location{
        width:100%;
+        height:300px;
         iframe{
             width:100%;
             height:100%;
@@ -587,17 +588,16 @@ padding:0;
         }
         .logo{
  font-family:$heading-font; 
-            font-size:1rem!important;
+            font-size:1.4rem!important;
 
 }
         header{
-
             padding-bottom: 30px;
-           height:310px;
+           height:450px;
             background: url("https://2jcap4sd79b4dxu9k1k3ns71-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/landing-location-3.jpg")no-repeat center center;
             background-size: cover;
             width:100%;
-    
+            coor:white;
         }
    
         video{
@@ -608,11 +608,11 @@ padding:0;
     color:red;
     width:100%;
     position: absolute;
-    top: 18%!important;
+    top: 30%!important;
     .heading1{
-      font-size: 3.0rem!important;
+      font-size: 2rem!important;
     font-weight: 700;  
-        
+    color:white!important;
         
     }
         }
@@ -636,12 +636,13 @@ padding:0;
             }
         }
         
-    header{
-
+     header{
             padding-bottom: 30px;
-           height:310px;
-            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+           height:510px;
+            background: url("https://2jcap4sd79b4dxu9k1k3ns71-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/landing-location-3.jpg")no-repeat center center;
             background-size: cover;
+            width:100%;
+        
         }
    
         video{
@@ -653,11 +654,10 @@ padding:0;
     width:100%;
     position: absolute;
     top: 25%!important;
-    z-index: 99999999999999999999999999999;
     .heading1{
       font-size: 3.0rem!important;
     font-weight: 700;  
-        
+    color:white!important;
         
     }
         }
@@ -736,11 +736,12 @@ element.style {
         }
         
  header{
-
             padding-bottom: 30px;
-           height:310px;
-            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+           height:510px;
+            background: url("https://2jcap4sd79b4dxu9k1k3ns71-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/landing-location-3.jpg")no-repeat center center;
             background-size: cover;
+            width:100%;
+            coor:white;
         }
    
         video{
@@ -756,7 +757,7 @@ element.style {
     .heading1{
       font-size: 3.0rem!important;
     font-weight: 700;  
-        
+     color:white!important;   
         
     }
         }
@@ -833,27 +834,26 @@ element.style {
             }
         }
         
-       header{
-
+    header{
             padding-bottom: 30px;
-           height:310px;
-            background: url("https://waechtersbachusa.com/shopping/images/Konitz%20Coffee%20Bar.jpg")no-repeat center center;
+           height:510px;
+            background: url("https://2jcap4sd79b4dxu9k1k3ns71-wpengine.netdna-ssl.com/wp-content/uploads/2016/07/landing-location-3.jpg")no-repeat center center;
             background-size: cover;
+            width:100%;
         }
    
         video{
          display: none;
         
     }
-.header-intro {
-    color:red;
+        .header-intro {
     width:100%;
     position: absolute;
-    top: 10%!important;
-    z-index: 99999999999999999999999999999;
+    top: 30%!important;
     .heading1{
       font-size: 3.0rem!important;
-    font-weight: 700;  
+    font-weight: 700; 
+color:white!important;
         
         
     }
@@ -898,9 +898,18 @@ element.style {
 
     // Large devices (desktops, 992px and up)
     @media (min-width: 992px)and (max-width: 1199px) {     
-     .box-bloq:before {
-    
-}   
+    .header-intro {
+    width:100%;
+    position: absolute;
+    top: 30%!important;
+    .heading1{
+      font-size:4rem!important;
+    font-weight: 700; 
+color:$primary-color!important;
+        
+        
+    }
+        }
     }
 
     // Extra large devices (large desktops, 1200px and up)

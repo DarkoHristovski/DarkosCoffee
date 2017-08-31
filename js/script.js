@@ -3,19 +3,19 @@
 $('.js-wp-1').waypoint(function(direction) {
     $('.js-wp-1').addClass('animated bounceInLeft');
 }, {
-   offset: '50%'
+   offset: '90%'
 });
 
 $('.js-wp-2').waypoint(function(direction) {
     $('.js-wp-2').addClass('animated bounceInDown');
 }, {
-    offset: '50%'
+    offset: '90%'
 });
 
 $('.js-wp-3').waypoint(function(direction) {
     $('.js-wp-3').addClass('animated bounceInRight');
 }, {
- offset: '50%'
+ offset: '90%'
 });
 $('.js-wp-4').waypoint(function(direction) {
     $('.js-wp-4').addClass('animated zoomIn');
@@ -63,34 +63,34 @@ $('.js-wp-12').waypoint(function(direction) {
  offset: '70%'
 });
 $('.js-wp-13').waypoint(function(direction) {
-    $('.js-wp-13').addClass('animated bounceInDown');
+    $('.js-wp-13').addClass('animated bounce');
 }, {
- offset: '10%'
+ offset: '60%'
 });
 $('.js-wp-14').waypoint(function(direction) {
-    $('.js-wp-14').addClass('animated bounce');
+    $('.js-wp-14').addClass('animated zoomIn');
 }, {
- offset: '50%'
+ offset: '90%'
 });
 $('.js-wp-15').waypoint(function(direction) {
-    $('.js-wp-15').addClass('animated bouncInDown');
+    $('.js-wp-15').addClass('animated bounce');
 }, {
- offset: '10%'
+ offset: '60%'
 });
 $('.js-wp-16').waypoint(function(direction) {
-    $('.js-wp-16').addClass('animated bounce');
+    $('.js-wp-16').addClass('animated zoomIn');
 }, {
- offset: '50%'
+ offset: '90%'
 });
 $('.js-wp-17').waypoint(function(direction) {
-    $('.js-wp-17').addClass('animated bounceInDown');
+    $('.js-wp-17').addClass('animated bounce');
 }, {
- offset: '10%'
+ offset: '60%'
 });
 $('.js-wp-18').waypoint(function(direction) {
-    $('.js-wp-18').addClass('animated bounce');
+    $('.js-wp-18').addClass('animated zoomIn');
 }, {
- offset: '50%'
+ offset: '90%'
 });
 
 $(".navbar-dark ul li a[href^='#']").on('click', function(e) {
@@ -154,17 +154,9 @@ function showSlides(n) {
 }
 
 /*Navigation*/
-$(document).ready(function(){
+
    
- 
- if ($(window).width() < 960) {
-   $('.js-wp-1').removeClass('animated bounceInLeft');
-       $('.js-wp-2').removeClass('animated bounceInDown');
-      $('.js-wp-3').removeClass('animated bounceInRight');
-}
-else {
-   alert('More than 960');
-}
+
     
 
 
@@ -174,7 +166,7 @@ video.addEventListener('onload',function(){
   video.play();
 },false);
 
- });
+
 
 
 
