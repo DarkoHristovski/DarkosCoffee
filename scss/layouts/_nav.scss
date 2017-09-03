@@ -1,0 +1,20 @@
+.logo {
+font-family: "Indie Flower",cursive;
+font-size: 2rem!important;
+color:white;
+}
+.navbar-inverse .navbar-nav .active>.nav-link, .navbar-inverse .navbar-nav .nav-link.active, .navbar-inverse .navbar-nav .nav-link.open, .navbar-inverse .navbar-nav .open>.nav-link{
+color:$secondary-color;
+font-weight:700;
+}
+.navbar-inverse .navbar-brand, .navbar-inverse .navbar-toggler  {
+color:$secondary-color;
+font-weight:700;
+}
+.navbar-inverse .navbar-nav .nav-link {
+color:$secondary-color;
+font-weight:700;
+}
+.bg-inverse{
+background-color:$primary-color!important;
+color:#fff!important;}
